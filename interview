@@ -1,0 +1,163 @@
+Terraform Interview Notes (IaC)
+1️⃣ What is Infrastructure as Code (IaC)?
+Infrastructure as Code (IaC) is the practice of managing and provisioning infrastructure using code and templates instead of manual processes.
+Popular IaC tools:
+
+Terraform
+Pulumi
+OpenTofu
+AWS CloudFormation
+Azure ARM Templates
+GCP Deployment Manager (CDM)
+
+
+2️⃣ Terraform & Pulumi
+
+Terraform: Declarative IaC tool by HashiCorp
+Pulumi: IaC using general‑purpose languages (Python, Go, TypeScript)
+
+Terraform is cloud‑agnostic and works across AWS, Azure, GCP, etc.
+
+3️⃣ Why use IaC? (Benefits)
+
+✅ Cost reduction
+✅ Faster infrastructure deployment
+✅ Reduced human errors
+✅ Improved infrastructure consistency (Idempotent)
+✅ Eliminates configuration drift
+✅ Easy collaboration and reuse across teams
+
+Key Interview Keyword:
+👉 Idempotency – running the same code multiple times gives the same result.
+
+4️⃣ What is Terraform State File?
+Terraform uses a state file to track real infrastructure.
+State file stores:
+
+Current infrastructure status
+Timestamp
+Who made the changes
+Which files were modified
+
+💡 Interview Tip:
+State enables Terraform to decide what to create, modify, or delete.
+
+5️⃣ Declarative vs Imperative Approach
+Declarative Method (Terraform)
+You define WHAT you want, not HOW to do it.
+Example:
+
+10 servers
+32 GB RAM
+16 vCPUs
+100 GB storage
+
+Terraform figures out the steps automatically.
+✅ Simple
+✅ Less error‑prone
+✅ Preferred for IaC
+
+Imperative Method
+You define step‑by‑step instructions to achieve the result.
+Examples:
+
+Bash / PowerShell scripts
+Python scripts
+Ansible playbooks
+
+❌ Complex
+❌ Requires detailed scripting
+❌ Needs highly skilled engineers
+👉 Terraform follows the Declarative approach.
+
+6️⃣ Provisioning vs Configuration Management
+Provisioning
+Setting up infrastructure resources:
+
+VM
+Storage
+Network
+Load Balancer
+Databases
+
+Example tools: Terraform, CloudFormation
+
+Configuration Management
+Performed after provisioning:
+
+Install software
+Configure servers
+Maintain systems
+
+Tools:
+
+Ansible
+Chef
+Puppet
+SaltStack
+
+👉 Terraform is mainly a provisioning tool, not configuration management.
+
+7️⃣ Mutable vs Immutable Infrastructure
+Mutable Infrastructure
+
+Existing servers are updated
+Software patches applied on same server
+Changes accumulate over time
+
+❌ Hard to rollback
+❌ Configuration drift
+❌ Security risks
+
+Immutable Infrastructure
+
+Servers never change after deployment
+Any change creates a new version
+Old version is replaced
+
+✅ Easy rollback
+✅ No configuration drift
+✅ More secure
+Interview Line:
+
+“Immutable infra promotes consistency and reliability by replacing infrastructure instead of modifying it.”
+
+
+8️⃣ Tools Used in Immutable Infrastructure
+
+Virtualized platform → Packer (golden images)
+Containerized platform → Docker (container images)
+
+
+9️⃣ Popular IaC Tools (Interview List)
+
+Terraform
+Pulumi
+OpenTofu
+AWS CloudFormation
+Azure ARM Templates
+GCP Deployment Manager
+
+
+🔟 Common Terraform Interview Questions
+Q: Why Terraform over CloudFormation?
+
+Multi‑cloud support
+Reusable modules
+Strong community
+Simple HCL syntax
+
+
+Q: What is Idempotency?
+Running Terraform multiple times produces the same infrastructure state.
+
+Q: What causes Configuration Drift?
+Manual changes done outside Terraform.
+Terraform detects and fixes drift using the state file.
+
+Q: Is Terraform mutable or immutable?
+Terraform supports both, but is widely used with immutable infrastructure patterns.
+
+✅ One‑Line Interview Summary
+
+Terraform is a declarative, cloud‑agnostic Infrastructure as Code tool that provisions infrastructure efficiently, ensures consistency, eliminates drift, and supports immutable infrastructure practices.
