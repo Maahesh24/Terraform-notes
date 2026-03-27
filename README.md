@@ -129,7 +129,8 @@ SaltStack
 🔄 Mutable vs Immutable Infrastructure
 Mutable Infrastructure ❌
 
-![Uploading image.png…]()
+<img width="940" height="447" alt="image" src="https://github.com/user-attachments/assets/dca7fa9f-c76d-4b23-8281-c4f0c5dc617b" />
+
 
 
 Existing servers are updated
