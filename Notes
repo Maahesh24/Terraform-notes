@@ -1,0 +1,67 @@
+// 
+
+
+IaC  ---  Terraform, Pulumi
+with the help of IaC tool ---> its has the templates with contains your
+infrastructure specifications, easy to manage and edit it and also
+distribute configuration to other teams
+Benefits:
+
+Cost reduction
+Increase in speed of deployment
+Reduce Human errors
+Improve the infra consitency (Idempotent)
+Eliminates the configuration drifts
+
+state file ---> Timestamp, Who did the changes, on which files
+
+
+
+2 Approaches / methods
+Declarative Method
+
+Iac (Terraform), what is your requirement ( needs )
+10 server - 32GB Ram, 16 VCPU's
+Storage - 100 GB
+In declarative method you only need to define the desire final condiction
+of the infrastructure without going in details and without even mentioned
+how it is achieved. it allow the Terraform to handle itself
+
+Imperative methods --->
+you to define the sepecific step by step commands to achieve the required configuration.
+
+Power shell /Bash shell scripting, Python
+Ansible server ---> modules ---> AWS, Azure, GCP, few other cloud env
+
+Here in imperative you need to very much detailed, you need provide all
+the detail to create infra and it would be complex configurations.
+You need a high level skilled person to write the scripts/configuration
+files.
+
+Provisioning Vs Configuration Management
+
+Provisioning:
+It is process of setting up IT infrastructure
+(VM, Storage, Network, LB, Databases), access to these resources to end user
+and make them to be available
+Configuration Management --->
+it comes after the provisioning and it means installing the software,
+configuring the server and maintaining them.
+Ansible, Chef, Puppet, Saltstack
+
+Mutable and Immutable infrastructure:
+
+Tools can also differ by the type of infra they are building, Mutable or
+it could immutable
+Shifting from one to another is costly and heavy on operations, so
+carefully consider your needs.
+
+Mutable Infra
+
+Mutable infra can be changed to fix your bussiness needs, you need to
+introduce the updates to the existing application or software versions,
+patches and scaling in the same server. reverting back the changes is
+quite challenging and usally it is not recommended, if you are doing a
+changes in the same server, you might drift from the configuration as
+well there could be security issues.
+
