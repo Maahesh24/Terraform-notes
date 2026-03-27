@@ -18,7 +18,10 @@ OpenTofu
 AWS CloudFormation
 Azure ARM Templates
 GCP Deployment Manager (CDM)
-<img width="940" height="447" alt="image" src="https://github.com/user-attachments/assets/766d1972-7d59-4092-92ce-1f1fa718b894" />
+
+<img width="940" height="352" alt="image" src="https://github.com/user-attachments/assets/376ea50f-e335-4a0e-acbf-625da3eca58a" />
+
+
 
 
 🌍 Terraform & Pulumi
@@ -83,6 +86,8 @@ Terraform automatically handles the execution steps.
 Imperative Method ❌
 You define step‑by‑step instructions.
 Examples:
+
+<img width="940" height="447" alt="image" src="https://github.com/user-attachments/assets/766d1972-7d59-4092-92ce-1f1fa718b894" />
 
 Bash / PowerShell scripts
 Python scripts
