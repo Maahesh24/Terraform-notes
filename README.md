@@ -2,6 +2,10 @@ Terraform Interview Notes (IaC)
 
 📌 Overview
 
+
+<img width="940" height="352" alt="image" src="https://github.com/user-attachments/assets/ca1cfd2d-1192-4293-b294-5cc0aa0dd0f1" />
+
+
 This repository contains Terraform Infrastructure as Code (IaC) interview notes, covering core concepts, best practices, and commonly asked interview questions.
 It is intended for DevOps engineers, cloud engineers, and Terraform learners preparing for interviews.
 
@@ -15,6 +19,7 @@ OpenTofu
 AWS CloudFormation
 Azure ARM Templates
 GCP Deployment Manager (CDM)
+<img width="940" height="447" alt="image" src="https://github.com/user-attachments/assets/766d1972-7d59-4092-92ce-1f1fa718b894" />
 
 
 🌍 Terraform & Pulumi
@@ -119,6 +124,9 @@ SaltStack
 
 🔄 Mutable vs Immutable Infrastructure
 Mutable Infrastructure ❌
+
+![Uploading image.png…]()
+
 
 Existing servers are updated
 Software patches applied on the same server
