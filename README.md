@@ -87,7 +87,6 @@ Imperative Method ❌
 You define step‑by‑step instructions.
 Examples:
 
-<img width="940" height="447" alt="image" src="https://github.com/user-attachments/assets/766d1972-7d59-4092-92ce-1f1fa718b894" />
 
 Bash / PowerShell scripts
 Python scripts
