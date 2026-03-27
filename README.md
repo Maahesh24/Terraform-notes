@@ -3,7 +3,6 @@ Terraform Interview Notes (IaC)
 📌 Overview
 
 
-<img width="940" height="352" alt="image" src="https://github.com/user-attachments/assets/ca1cfd2d-1192-4293-b294-5cc0aa0dd0f1" />
 
 
 This repository contains Terraform Infrastructure as Code (IaC) interview notes, covering core concepts, best practices, and commonly asked interview questions.
